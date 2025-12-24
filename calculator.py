@@ -1,13 +1,13 @@
-def add(a,b):
-    return a+b
-def subtract(a,b):
-    return a-b
-def multiply(a,b):
-    return a*b
-def divide(a,b):
-    if b==0:
+def add(b,c):
+    return b+c
+def subtract(b,c):
+    return b-c
+def multiply(b):,c
+    return b*c
+def divide(b,c):
+    if c==0:
         return "Error: Cannot divide by zero."
-    return a / b
+    return b / c
 def main():
     print("Welcome to CLI Calculator")
     print("----------------------------")
@@ -41,4 +41,5 @@ def main():
             else:
                 print("Invalid input.Please enter a vaild choice(1/2/3/4).")
 if __name__ == "__main__":
+
     main()  
